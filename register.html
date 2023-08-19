@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1><a href="#">JobStreet</a></h1>
+        <ul>
+          <li class="kandidat"><a href="#">untuk kandidat</a></li>
+          <li class="masuk"><a href="#">masuk</a></li>
+          <li class="daftar"><a href="#">daftar</a></li>
+        </ul>
+      </div>
+    </header>
+    <div>
+      <p class="mencari">
+        Apakah anda mencari pekerjaan?<a href="#"> Klik di sini.</a>
+      </p>
+    </div>
+    <div class="fomulir">
+      <div class="tombol">
+        <div>
+          <img src="img/Rectangle 38.png" alt="None" />
+        </div>
+        <div class="inputan">
+          <br />
+
+          <p class="perusahaan">Daftarkan Perusahaanmu Di Sini</p>
+          <br />
+
+          <!--Email-->
+          <br />
+          <label class="block ml-10 mr-10">
+            <span
+              class="after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"
+            >
+              Email Login ID
+            </span>
+            <input
+              type="email"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+            />
+          </label>
+
+          <!-- Nama -->
+          <br />
+          <label class="block ml-10 mr-10">
+            <span
+              class="after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"
+            >
+              Nama
+            </span>
+            <input
+              type="text"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+            />
+          </label>
+
+          <!-- Nomor HP -->
+          <br />
+          <label class="block ml-10 mr-10">
+            <span
+              class="after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"
+            >
+              Nomor HP
+            </span>
+            <input
+              type="text"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+            />
+          </label>
+
+          <!-- Nama Bisnis Yang Terdaftar -->
+          <br />
+          <label class="block ml-10 mr-10">
+            <span
+              class="after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"
+            >
+              Nama Bisnis Terdaftar
+            </span>
+            <input
+              type="text"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+              placeholder="Sama seperti dokumen pendirian perusahaan"
+            />
+          </label>
+
+          <!-- Kata Sandi -->
+          <br />
+          <label class="block ml-10 mr-10">
+            <div class="sandi">
+              <span
+                class="after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"
+              >
+                Kata sandi
+              </span>
+              <span class="mata">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                >
+                  <path
+                    d="M9 3.9C8.34901 3.9 7.72469 4.17393 7.26437 4.66152C6.80406 5.14912 6.54545 5.81044 6.54545 6.5C6.54545 7.18956 6.80406 7.85088 7.26437 8.33848C7.72469 8.82607 8.34901 9.1 9 9.1C9.65099 9.1 10.2753 8.82607 10.7356 8.33848C11.1959 7.85088 11.4545 7.18956 11.4545 6.5C11.4545 5.81044 11.1959 5.14912 10.7356 4.66152C10.2753 4.17393 9.65099 3.9 9 3.9ZM9 10.8333C7.91502 10.8333 6.87448 10.3768 6.10729 9.56413C5.3401 8.75147 4.90909 7.64927 4.90909 6.5C4.90909 5.35073 5.3401 4.24853 6.10729 3.43587C6.87448 2.62321 7.91502 2.16667 9 2.16667C10.085 2.16667 11.1255 2.62321 11.8927 3.43587C12.6599 4.24853 13.0909 5.35073 13.0909 6.5C13.0909 7.64927 12.6599 8.75147 11.8927 9.56413C11.1255 10.3768 10.085 10.8333 9 10.8333ZM9 0C4.90909 0 1.41545 2.69533 0 6.5C1.41545 10.3047 4.90909 13 9 13C13.0909 13 16.5845 10.3047 18 6.5C16.5845 2.69533 13.0909 0 9 0Z"
+                    fill="#666666"
+                  />
+                </svg>
+                <p class="tampilkan">Tampilkan</p>
+              </span>
+            </div>
+
+            <input
+              type="text"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+            />
+          </label>
+
+          <!-- Daftar -->
+          <label class="block ml-10 mr-10">
+            <span class="after:ml-0.5"></span>
+            <button
+              type="button"
+              class="text-white text-center bg-rose-600 mt-1 px-3 py-2 border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+            >
+              Daftar
+            </button>
+          </label>
+          <br />
+          <p class="text-left text-slate-500 ml-10 mr-10">
+            Dengan melanjutkan, Anda telah menyutujui
+            <a href="#" class="text-sky-500">Kebijakan Privasi</a> dan
+            <a href="#" class="text-sky-500"
+              >Syarat & Ketentuan dari Jobstreet.</a
+            >
+          </p>
+          <br />
+        </div>
+      </div>
+      <footer class="footer">
+        <h1>INI UNTUK FOOTER</h1>
+      </footer>
+    </div>
+  </body>
+</html>
