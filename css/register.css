@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    background-color: #ffff;
+}
+
+header h1 {
+    padding: 20px 0px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.57px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #0D3880;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 1140px;
+    height: 80px;
+    left: 150px;
+    margin: 0 auto;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px 3px;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.kandidat a {
+    color: #0D3880;
+    border: 1px solid #0D3880;
+    border-radius: 10px;
+    width: 163px;
+    height: 31px;
+    top: 24px;
+    left: 928px;
+}
+
+.masuk a {
+    color: white;
+    background-color: #E60278;
+    border-radius: 5px;
+    width: 88px;
+    height: 31px;
+    top: 24px;
+    left: 1101px;
+}
+
+.daftar a {
+    width: 91px;
+    height: 31px;
+    top: 23px;
+    left: 1199px;
+    border-radius: 5px;
+    background-color: #0D3880;
+    color: white;
+}
+
+.mencari a {
+    color: #0061B9;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mencari {
+    padding: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.perusahaan {
+    color: #0749b9;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.fomulir {
+    background-color: white;
+    position: relative;
+}
+
+.tombol {
+    width: 700px;
+    height: 613px;
+    position: absolute;
+    left: 340px;
+    right: 370p;
+}
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.inputan {
+    background-color: #ffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.sandi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tampilkan {
+    color: gray;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mata {
+    display: flex;
+    flex: row;
+}
+.footer {
+    position: absolute;
+    margin-top: 50px;
+    top: 900px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
