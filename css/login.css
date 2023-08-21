@@ -1,156 +1,92 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body{
-    height: 800px;
-    background-color: #E5E5E5;
-}
-/* header {
-    width: 1440px;
-    height: 80px;
-    background-color: #ffff;
-} */
-header h1 {
-    padding: 20px 0px;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 36.57px;
-}
-header h1 a {
-    text-decoration: none;
-    color: #0D3880;
-}
-
-.container{
-    width: 1140px;
-    height: 80px;
-    left: 150px;
-    margin: 0 auto;
-}
-header ul {
-    float: right;
-}
-header ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 25px 3px;
-    font-size: 15px;
-    line-height: 30px;
-    text-transform: capitalize;
-}
-header ul li a{
-    text-decoration: none;
-    padding: 5px 15px;
-}
-.kandidat a {
-    color: #0D3880;
-    border: 1px solid #0D3880;
-    border-radius: 10px;
-    width: 163px;
-    height: 31px;
-    top: 24px;
-    left: 928px;
-}
-.masuk a {
-    color: white;
-    background-color: #E60278;
-    border-radius: 5px;
-    width: 88px;
-    height: 31px;
-    top: 24px;
-    left: 1101px;
-}
-.daftar a {
-    width: 91px;
-    height: 31px;
-    top: 23px;
-    left: 1199px;
-    border-radius: 5px;
-    background-color: #0D3880;
-    color: white;
-}
-.mencari a {
-    text-decoration: none;
-}
-.mencari {
+/* Form Login */
+.question {
     padding: 50px;
     text-align: center;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
 }
 
-/* Peringatan keamanan */
-.menu {
+/* Peringatan Keamanan */
+.forms {
     background-color: #ffffff;
     width: 1000px;
     height: 412px;
     top: 197px;
     left: 220px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 10px auto;
-    padding-top: 65px;
-    display: flex;
-    justify-content: space-evenly;
+    padding-top: 45px;
+    justify-content: space-evenly; 
 }
-.warning {
+.security {
     width: 365px;
     height: 342px;
     top: 227px;
     left: 280px;
+    padding-top: 25px;
 }
-.warning h3{
+.caution {
     font-size: 25px;
+    font-weight: 600;
+    line-height: 30.48px;
 }
-.warning p {
-    font-size: 12px;
+.points {
+    font-size: 12px; 
+    color: #666666;
     padding-top: 15px;
-    margin: 23px;
+    font-weight: 400;
+    line-height: 14.63px;
 }
-.warning a {
-    text-decoration: none;
+.point {
+    padding-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
-.warning h6{
+.contactus {
+    font-size: 12px; 
+    font-weight: 500;
+    line-height: 14.63px;
     padding-top: 20px;
 }
-.garis {
+
+.middle {
     width: 0px;
     height: 340px;
     border: 1px #F4F4F4 solid;
 }
+
 /* Login Perusahaan */
 .login {
     width: 365px;
     height: 342px;
     top: 227px;
-    left: 795px;
+    left: 280px;
+    padding-top: 25px;
 }
-.login h3 {
+.login-company {
     font-size: 30px;
     font-weight: 300;
-    padding-bottom: 17px;
+    line-height: 36.57px;
 }
-.login form {
+.logins {
+    padding-top: 15px;
+    font-weight: 300;
+}
+.log-in {
     width: 365px;
     height: 57px;
     top: 324px;
     left: 795px;
-    padding-top: 17px;
+    margin-top: 10px;
 }
-.login label, input {
-    margin-top: 8px;
-}
-.login label {
-    font-weight: 600;
-    width: 365px;
-    height: 35px;
+.log-in label {
     font-size: 12px;
     font-weight: 300;
+    line-height: 14.63px;
 }
-.login input {
-    width: 357px;
+.log-in input {
+    width: 365px;
     height: 35px;
     background-color: #EEEEEE;
     border-radius: 5px;
@@ -159,22 +95,16 @@ header ul li a{
     border: none;
     outline: none;
     padding-left: 10px;
+    line height: 17.07px;
 }
-
-.login p {
-    float: right;
+.forgot-password {
     padding-top: 10px;
-}
-.login p a {
-    text-decoration: none;
     font-size: 12px;
     font-weight: 400;
-    width: 165px;
-    height: 15px;
-    top: 468px;
-    left: 995px;
+    color: #0575B3;
+    text-align: right;
 }
-.login button {
+.button button {
     border: none;
     outline: none;
     padding: 8px;
@@ -186,4 +116,6 @@ header ul li a{
     margin-top: 30px;
     border-radius: 5px;
     background: #E60278;
+    font-weight: 600;
+    line-height: 18.29px;
 }
