@@ -12,7 +12,13 @@
                 extend: {
                     fontFamily: {
                         'montserrat': ['Montserrat, sans-serif'],
-                        'inter' : ['Inter, sans-serif']
+                        'inter' : ['Inter, sans-serif'],
+                    },
+                    colors: {
+                        'graybg': '#F6F6F6',
+                        'graytext': '#545b6a',
+                        'grayborder': '#D9D9D9',
+                        'bluetext': '#1c3f94',
                     },
                 }
               }
@@ -21,18 +27,21 @@
     </head>
 
     <body>
+        <!-- container -->
         <div class="bg-neutral-200">
+            
+            <!-- header -->
             <header class="bg-white font-montserrat">
                 <div class="flex px-2 justify-between items-center py-5 md:px-20 md:py-10">
-                    <h1 class="text-3xl md:text-4xl font-extrabold text-blue-900">Jobstreet</h1>
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-blue-900">JobStreet</h1>
                     <div class="hidden md:flex gap-14">
                         <button class="py-1 text-blue-900 px-5 border border-blue-900 rounded-md">Untuk Kandidat</button>
                         <div class="flex items-center gap-3">
                             <div class="inline-block">
                                 <img class="h-8 w-8" src="img/fotoProfilPerusahaan.png" alt="Foto Profil Perusahaan">
                             </div>
-                            <div class="inline-block font-inter text-xs text-slate-400">
-                                <p>PT. Kelompok Empat</p>
+                            <div class="inline-block">
+                                <p class="font-inter text-xs text-graytext">PT. Kelompok Empat</p>
                             </div>
                         </div>
                     </div>
@@ -53,8 +62,8 @@
                             </li>
                             <li class="py-5 flex flex-col space-y-2">
                                 <button class="py-1 text-blue-900 px-5 border border-blue-900 rounded-md">Untuk Kandidat</button>
-                                <button class="text-white py-1 px-3 bg-pink-600 rounded-md ">Daftar</button>
-                                <button class="text-white py-1 px-3 bg-blue-900 rounded-md ">Masuk</button>
+                                <button class="py-1 px-3 rounded-md ">(fotoperusahaan)</button>
+                                <button class="py-1 px-3 rounded-md ">(namaperusahaan)</button>
                             </li>
                         </ul>
                     </div>
@@ -68,8 +77,62 @@
             </header>
     
             <!-- main -->
-            <section class="flex min-h-screen justify-center items-center">
-                <div>content</div>
+            <section class="flex min-h-screen px-20 py-11 gap-2.5 font-inter">
+                <!-- left section -->
+                <div class="min-w-[20.55vw] h-fit bg-white rounded-xl">
+                    <div class="flex p-5 items-center bg-graybg border-l-4 border-bluetext rounded-t-xl">
+                        <div>
+                            <img class="w-16 h-16 p-1 border border-grayborder rounded-full " src="img/fotoProfilPerusahaan.png" alt="fotoProfilPerusahaan">
+                        </div>
+                        <div class="px-5">
+                            <h2 class="text-xl text-bluetext">PT. Kelompok Empat</h2>
+                            <p class="text-graytext text-xs">Lihat profil perusahaan</p>
+                        </div>
+                    </div>
+                    <div class="p-5 text-graytext text-sm">
+                        <h3>Company Size</h3>
+                    </div>
+                    <div class="p-5 text-graytext text-sm">
+                        <h3>Industry</h3>
+                    </div>
+                    <div class="p-5 text-graytext text-sm">
+                        <h3>Specific Location</h3>
+                    </div>
+                    <div class="p-5 text-graytext text-sm">
+                        <h3>Vacancy</h3>
+                    </div>
+                </div>
+                <!-- right section -->
+                <div class="h-max min-h-[550px] bg-white rounded-xl">
+                    <div class="flex py-5 px-5 items-center">
+                        <div>
+                            <img class="w-24 h-24 p-1 border border-grayborder rounded-full" src="img/fotoProfilPerusahaan.png" alt="fotoProfilPerusahaan">
+                        </div>
+                        <div class="px-2">
+                            <h2 class="text-xl text-bluetext">PT. Kelompok Empat</h2>
+                            <p class="text-xs text-graytext my-2.5">(+62) 81234567890 | kelompokempat@gmail.com | <br> Jakarta Timur, DKI Jakarta</p>
+                        </div>
+                    </div>
+                    <div class="h-0.5 mx-5 bg-[#F6F6F6]">
+                    </div>
+                    <div class="py-5">
+                        <div class="flex gap-5 items-center px-5">
+                            <h3>Tentang Perusahaan</h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                <path d="M6.36744 2.26465H2.19276C1.87642 2.26465 1.57304 2.39032 1.34935 2.61401C1.12567 2.83769 1 3.14108 1 3.45743V11.8069C1 12.1232 1.12567 12.4266 1.34935 12.6503C1.57304 12.874 1.87642 12.9997 2.19276 12.9997H10.5421C10.8585 12.9997 11.1618 12.874 11.3855 12.6503C11.6092 12.4266 11.7349 12.1232 11.7349 11.8069V7.63215" stroke="#545B6A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.8404 1.37055C11.0776 1.13329 11.3994 1 11.735 1C12.0705 1 12.3923 1.13329 12.6295 1.37055C12.8668 1.60781 13.0001 1.9296 13.0001 2.26513C13.0001 2.60067 12.8668 2.92246 12.6295 3.15972L6.9639 8.82541L4.57837 9.4218L5.17475 7.03625L10.8404 1.37055Z" stroke="#545B6A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                        <div class="p-5">
+                            <p>is a software a software development company that develops innovative smart city solutions.<br><br>
+                                We are software company based in Singapore, Indonesia and the Netherlands. We focus on developing applications within the field of mobility, logistics and blockchain technology, projects that have a positive impact all over the world.<br><br>
+                                Our client base is very diverse, from the world's largest companies to fast growing medium sized companies and innovative start-ups. Every day we wake up with one common goal, which is to develop software that has a positive impact. With that common dream it is important to be open-minded, work together with clients outside of Indonesia and learn how to work with colleagues from different nationalities.<br><br>
+                                Within our team we believe in helping each other, that it is alright to make a mistake and to constantly improve together. To constantly improve and to become a real professional within your field our firm provides great benefits such a free language course, free certifications for your specific job role and have amazing company trips. <br><br>
+                                Once a month we experiment with new technologies that we call our "experiment day" a day without the force of labor and just learn new things. How do you build a rocket? Develop supporting hardware and software to clean up the rivers around Indonesia. There are budgets for education, kids allowance and housing allowance available to all our team members who are joining our adventure. Are you ready for the next step?
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
     
             <!-- footer -->
@@ -102,7 +165,7 @@
                                 <a href="#" class="hover:text-slate-50">Talent Search</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-slate-50">SiVA Recruitment Centre</a>
+                                <a href="#" class="hover:text-slate-50">SiVA Recruitment Center</a>
                             </li>
                             <li>
                                 <a href="#" class="hover:text-slate-50">Layanan Branding Perusahaan</a>
@@ -113,7 +176,7 @@
                         <h2 class="text-lg text-slate-50 mb-2">Bantuan</h2>
                         <ul class="space-y-2">
                             <li>
-                                <a href="#" class="hover:text-slate-50">Help Centre</a>
+                                <a href="#" class="hover:text-slate-50">Help Center</a>
                             </li>
                             <li>
                                 <a href="#" class="hover:text-slate-50">Hubungi Kami</a>
@@ -261,6 +324,5 @@
                 </div>
             </footer>
         </div>
-        <!-- header  -->
     </body>
 </html>
