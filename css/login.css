@@ -1,0 +1,121 @@
+/* Form Login */
+.question {
+    padding: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+}
+
+/* Peringatan Keamanan */
+.forms {
+    background-color: #ffffff;
+    width: 1000px;
+    height: 412px;
+    top: 197px;
+    left: 220px;
+    border-radius: 15px;
+    margin: 10px auto;
+    padding-top: 45px;
+    justify-content: space-evenly; 
+}
+.security {
+    width: 365px;
+    height: 342px;
+    top: 227px;
+    left: 280px;
+    padding-top: 25px;
+}
+.caution {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30.48px;
+}
+.points {
+    font-size: 12px; 
+    color: #666666;
+    padding-top: 15px;
+    font-weight: 400;
+    line-height: 14.63px;
+}
+.point {
+    padding-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.contactus {
+    font-size: 12px; 
+    font-weight: 500;
+    line-height: 14.63px;
+    padding-top: 20px;
+}
+
+.middle {
+    width: 0px;
+    height: 340px;
+    border: 1px #F4F4F4 solid;
+}
+
+/* Login Perusahaan */
+.login {
+    width: 365px;
+    height: 342px;
+    top: 227px;
+    left: 280px;
+    padding-top: 25px;
+}
+.login-company {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36.57px;
+}
+.logins {
+    padding-top: 15px;
+    font-weight: 300;
+}
+.log-in {
+    width: 365px;
+    height: 57px;
+    top: 324px;
+    left: 795px;
+    margin-top: 10px;
+}
+.log-in label {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.63px;
+}
+.log-in input {
+    width: 365px;
+    height: 35px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    line height: 17.07px;
+}
+.forgot-password {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #0575B3;
+    text-align: right;
+}
+.button button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 365px;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #E60278;
+    font-weight: 600;
+    line-height: 18.29px;
+}
